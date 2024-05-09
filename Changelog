@@ -1,0 +1,54 @@
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_1.6.25 - 14-Nov-2023 - Padmapriya
+1. Added sdwan_proto column values while assigning and unassigning devices. 
+2. Added os field in edge.
+3. changed the status background colors.
+
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.10 - 8-Oct-2023 - Padmapriya
+
+  *  completed the device assign and unassign functionalitity for the customers.
+-----------------------------------------------------------------------------------------------------------------------  
+smoad_server_0.0.9 - 8-Aug-2023 - Padmapriya
+
+  * Built new layout by using the codeigniter framework.
+  * Also used the adminlte.
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.8 - 12-Aug-2023 - Padmapriya
+
+  * downloaded the sample tables and graphs by using js pdf library
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.7 - 22-Aug-2023 - Padmapriya
+
+  * Created one "users" table with email and password. 
+  * Added one "role" column and  hide or displayed the side menu's corresponding to the specific user. 
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.6 - 24-Aug-2023 - Padmapriya
+
+  * completed the historical Log page UI.
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.5 - 25-Aug-2023 - Padmapriya
+
+  * Deleted the new "users" table and used the existing "smoad_users" table.
+  * hide and displayed the side menus corresponding to the specific access levels. I have used the session for this.
+  * Also enabled the bulk record delete option.
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.4 - 29-Aug-2023 - Padmapriya
+
+  * Made historical Log page dynamic which displayed the data from the database.
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.3 - 1-Sep-2023 - Padmapriya
+
+  *  completed the dropdown "Alerts" menu which shows the "user login", "Edge", "Gateway", and "security" side menus information. Also,changed the email to username on the login page. 
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.2 - 4-Sep-2023 - Padmapriya
+
+  *  completed the add device functionality with form validation (for empty form submission) messages.
+-----------------------------------------------------------------------------------------------------------------------
+smoad_server_0.0.1 - 7-Sep-2023 - Padmapriya
+
+  *  customer's tab add,view,edit,delete functionalites.
+-----------------------------------------------------------------------------------------------------------------------
+
+ 
+-----------------------------------------------------------------------------------------------------------------------

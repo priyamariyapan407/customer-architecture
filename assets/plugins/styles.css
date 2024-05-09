@@ -1,0 +1,319 @@
+.main-sidebar,
+.main-sidebar::before {
+	width: 210px !important;
+}
+
+.sidebar-mini .main-sidebar .nav-link,
+.sidebar-mini-md .main-sidebar .nav-link,
+.sidebar-mini-xs .main-sidebar .nav-link {
+	width: 192px !important;
+}
+
+.main-header {
+	margin-left: 210px !important;
+}
+
+.table td {
+	padding: 0.6rem !important;
+}
+
+.status {
+	width: 100%;
+	text-align: center;
+}
+
+.status_down {
+	background: #d84430;
+	padding: 6px;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 8px;
+}
+
+.status_up {
+	background: green;
+	padding: 6px;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 8px;
+}
+
+.status_waiting {
+	background: gray;
+	padding: 6px;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 8px;
+}
+
+.layout-fixed .brand-link {
+	width: 210px !important;
+}
+
+.content-wrapper {
+	margin-left: 210px !important;
+}
+
+.logged_in_user {
+	font-style: normal;
+	margin-left: 25%;
+	margin-top: -9%;
+}
+
+.loggedin_user {
+	display: inline-flex !important;
+	vertical-align: middle;
+}
+
+.content-header {
+	padding: 15px 0 0 0.5rem !important;
+}
+
+.dashboard_header {
+	padding: 1% 0 0 1% !important;
+}
+
+.card_title {
+	padding: 1.2% 1.2% !important;
+}
+
+.select {
+	background-color: #d84430 !important;
+	color: #fff !important;
+}
+
+.smoad-logo {
+	text-align: center;
+}
+
+#delete-selected {
+	display: none;
+}
+
+.edge_device {
+	padding-top: 1.1%;
+	padding-left: 0.2%;
+}
+
+.mrgn_top {
+	padding-top: 1%;
+}
+
+.alert_msg-danger {
+	--bs-alert-color: #842029 !important;
+	--bs-alert-bg: #f8d7da !important;
+	--bs-alert-border-color: #f5c2c7 !important;
+}
+
+.alert_msg {
+	color: var(--bs-alert-color) !important;
+	background-color: var(--bs-alert-bg) !important;
+	border: var(--bs-alert-border) !important;
+	border-radius: var(--bs-alert-border-radius) !important;
+	padding: 1% 1% 0.3% 1%;
+}
+
+.error_msg {
+	margin-top: 1.2%;
+	margin-bottom: 1.5%;
+	border-radius: 5px;
+}
+
+.bg-success-msg {
+	margin-top: 1%;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 2%;
+	background: #28a745;
+	color: #fff;
+}
+
+.add_device {
+	margin: 0.8% 0%;
+}
+
+span.provision_true {
+	width: 15px;
+	height: 15px;
+	background: green;
+	border-radius: 7.5px;
+	position: absolute;
+}
+
+span.provision_false {
+	width: 15px;
+	height: 15px;
+	background: green;
+	border-radius: 7.5px;
+	position: absolute;
+}
+
+.password-container {
+	position: relative;
+}
+
+.password-toggle {
+	position: absolute;
+	right: 20px;
+	top: 53%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+.row.padding {
+	padding: 0.8%;
+}
+
+.devices {
+	line-height: 40px;
+}
+
+.update_button {
+	margin-top: 0.5% !important;
+}
+
+.padding {
+	padding: 1.5%;
+}
+
+.alert_heading {
+	margin-top: 1%;
+}
+
+span.led_red {
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	background: green;
+	position: absolute;
+}
+
+span.led_red {
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	background: #940;
+	position: absolute;
+}
+
+.alert-danger {
+	--bs-alert-color: #842029 !important;
+	--bs-alert-bg: #f8d7da !important;
+	--bs-alert-border-color: #f5c2c7 !important;
+}
+
+.alert {
+	color: var(--bs-alert-color) !important;
+	background-color: var(--bs-alert-bg) !important;
+	border: var(--bs-alert-border) !important;
+	border-radius: var(--bs-alert-border-radius) !important;
+}
+
+.login_page_logo {
+	width: 50%;
+	height: auto;
+}
+
+.fa-download {
+	color: #000;
+}
+
+ul.nav.specs_nav.flex-column {
+	display: block;
+}
+
+#PD {
+	cursor: pointer;
+	background-color: #e9eff5;
+	font-family: Helvetica;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+}
+
+#PW {
+	cursor: pointer;
+	background-color: #e9eff5;
+	font-family: Helvetica;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+}
+
+.stats_info {
+	display: none;
+}
+
+.edge_qos_stats {
+	display: none;
+}
+
+.graph {
+	width: 80%;
+}
+
+.title {
+	margin-bottom: 4%;
+}
+.empty_rx_bytes {
+	display: none;
+}
+.past_week {
+	display: none;
+}
+.edge_qos_stats_live {
+	display: none;
+}
+
+.past_week_live {
+	display: none !important;
+}
+
+.past_week_qos_stats {
+	display: none !important;
+}
+.content-wrapper {
+	background-color: unset !important;
+}
+.readonly_texts {
+	padding: 9px;
+}
+.notification_bar {
+	max-width: unset !important;
+}
+.column_value {
+	font-weight: normal;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2; /* Light gray background color */
+}
+
+/* Select odd rows */
+tr:nth-child(odd) {
+	background-color: #ffffff; /* White background color */
+}
+.remove-cursor {
+	cursor: unset;
+}
+.hyperlink_devices {
+	display: flex;
+	/* margin-left: 5px; */
+	align-items: center;
+	flex-direction: row;
+	vertical-align: middle;
+	width: 100%;
+}
+.linked_devices {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.report_download {
+	margin-top: 15px;
+}
